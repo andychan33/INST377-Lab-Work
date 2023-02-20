@@ -1,5 +1,52 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andy's Labs for INST377</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- wrapper -->
+    <header class="header"><h1>Andy's Labs for INST377</h1></header>
+    <div class="container">
+        <!-- container -->
+      <div class="left_section box">
+        <!-- left inputs  -->
+        <h3>Album Names</h3>
+        <ol class="box">
+          <li>Future, Lil Uzi Vert - Pluto x Baby Pluto</li>
+          <li>Major Lazer - Peace Is the Mission</li>
+          <li>WON - Unique</li>
+          <li>Timecop1983 - Night Drive</li>
+          <li>The Midnight - Endless Summer</li>
+        </ol>
+      </div>
+      <div class="right_section box"> 
+        <!-- right side  -->
+        <h3>Image Carousel</h3>
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+              <!-- image box -->
+            <div class="carousel_item visible"><img id="slide_1" src="images/hummingbird1.jpg" alt="A green hummingbird."></div>
+            <div class="carousel_item hidden"><img id="slide_2" src="images/hummingbird2.png" alt="A violet and grey hummingbird."></div>
+            <div class="carousel_item hidden"><img id="slide_3" src="images/hummingbird3.jpg" alt="Two blue hummingbirds."></div>
+            <div class="carousel_item hidden"><img id="slide_4" src="images/hummingbird4.jpg" alt="A yellow and black hummingbird."></div>
+            </div>
+            <button class="next">next</button>
+        </div>
+        <div class="box">
+          <!-- description box -->
+          Photographs of different hummingbirds.
+        </div>  
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    @andychan33<a href="http://github.com/andychan33" target="_blank" rel="noopener noreferrer"> Github Account</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
